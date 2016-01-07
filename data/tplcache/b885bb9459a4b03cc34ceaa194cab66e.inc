@@ -1,0 +1,7 @@
+
+    <m:item name='普通文章' ischannel='1' link='content_list.php?channelid=1' linkadd='article_add.php?channelid=1' channelid='1' rank='' target='main' />
+  <m:item name='图片集' ischannel='1' link='content_i_list.php?channelid=2' linkadd='album_add.php?channelid=2' channelid='2' rank='' target='main' />
+  <m:item name='服务与优势' ischannel='1' link='content_list.php?channelid=7' linkadd='article_add.php?channelid=7' channelid='7' rank='' target='main' />
+  <m:item name='关于我们' ischannel='1' link='content_list.php?channelid=8' linkadd='article_add.php?channelid=8' channelid='8' rank='' target='main' />
+
+  <m:item name='专题管理' ischannel='1' link='content_s_list.php' linkadd='spec_add.php' channelid='-1' rank='spec_New' target='main' />

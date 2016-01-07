@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="hov" title="全部案例"><font>资料下载</font></a>

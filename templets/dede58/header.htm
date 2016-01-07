@@ -1,0 +1,39 @@
+<script type="text/javascript">
+$(document).ready(function(){
+  
+  var typename="{dede:field.typename/}";
+  $(".min_nav_left a:gt(0)").each(function(i){
+  
+  	var aname = $(this).find("font").html();
+	
+	
+  	if(aname == typename){
+	$(".min_nav_left a").eq(0).removeClass("hov");
+		$(this).addClass("hov");
+	}
+  });
+});
+</script>
+
+<div class="header">
+  <div class="div">
+    <div class="logo"> <a title="{dede:global.cfg_webname/}" href="/"><img src="/images/logo.png" title="{dede:global.cfg_webname/}"></a> </div>
+    <div class="nav">
+      <ul class="nav_list" id="yw0">
+        <li><a title="首页" href="/">首页</a></li>
+        {dede:channel type='top' row='10' currentstyle="
+        <li class='active'><a href='~typelink~'>~typename~</a></li>
+        "}
+        <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+        {/dede:channel} 
+        
+        <!--{dede:type typeid='4'}<li><a title="案例展示" href="[field:typeurl/]">案例</a></li>{/dede:type}
+{dede:type typeid='22'}<li><a title="资讯动态" href="[field:typeurl/]">资讯</a></li>{/dede:type}
+{dede:type typeid='1'}<li><a title="服务项目" href="[field:typeurl/]">服务</a></li>{/dede:type}
+{dede:type typeid='11'}<li><a title="手机网站建设" href="[field:typeurl/]">手机</a></li>{/dede:type}
+{dede:type typeid='16'}<li><a title="关于我们" href="[field:typeurl/]">关于</a></li>{/dede:type}
+{dede:type typeid='25'}<li><a title="联系我们" rel="nofollow" href="[field:typeurl/]">联系</a></li>{/dede:type}-->
+      </ul>
+    </div>
+  </div>
+</div>

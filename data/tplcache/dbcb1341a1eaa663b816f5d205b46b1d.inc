@@ -1,0 +1,1 @@
+<a href="[field:typelink/]">联系方式</a>

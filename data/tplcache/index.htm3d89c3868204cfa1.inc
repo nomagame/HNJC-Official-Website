@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("global","",259,285);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",329,359);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",396,423);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",1468,1505);
+$z[3][4]['filename']="header.htm";
+$z[4]=Array("arclist","\r\n                            <div class=\"box\">\r\n                                <a href=\"[field:arcurl/]\" target=\"_blank\">\r\n                                    <strong>[field:title/]</strong>\r\n                                    <p>[field:info function=\"cn_substr(@me,80)\"/]...</p>\r\n                                </a>\r\n                            </div>",3478,3875);
+$z[4][4]['typeid']="27";
+$z[5]=Array("type"," <li>\r\n               <div><span><a href=\"[field:typeurl/]\" title=\"软件开发\" target=\"_blank\"><i><img src=\"images/ser_01.png\" alt=\"软件开发\" height=\"90\" width=\"56\"></i>软件开发</a></span>\r\n                    <p>定制开发各类OA、CRM、ERP，智慧旅游、舆情监控、物联网、各类数据库、管理系统等……</p>\r\n                </div>\r\n                <a href=\"[field:typeurl/]\" class=\"detail\">了解详情</a></li>",5505,5988);
+$z[5][4]['typeid']="29";
+$z[6]=Array("type"," <li class=\"\">\r\n                <div><span><a href=\"[field:typeurl/]\" title=\"政府政务网站、企业网站、门户网站、电商平台、FLASH/HTML5全站、手机网站、淘宝装修\" target=\"_blank\"><i><img src=\"images/ser_02.png\" alt=\"网站制作\" height=\"90\" width=\"83\"></i>网站建设</a></span>\r\n                    <p>政府政务网站、企业网站、门户网站、电商平台、手机网站、淘宝装修、FLASH/HTML5站等……</p>\r\n                </div>\r\n                <a href=\"[field:typeurl/]\" class=\"detail\">了解详情</a></li>",6001,6597);
+$z[6][4]['typeid']="2";
+$z[7]=Array("type","<li class=\"\">\r\n                <div><span><a href=\"[field:typeurl/]\" title=\"网站推广与优化\" target=\"_blank\"><i><img src=\"images/ser_03.png\" alt=\"优化推广\" height=\"90\" width=\"108\"></i>SEO优化推广</a></span>\r\n                    <p>SEO搜索引擎排名优化服务,百度、谷歌、搜狗、搜搜等，SEM整合营销推广服务等……</p>\r\n                </div>\r\n                <a href=\"[field:typeurl/]\" class=\"detail\">了解详情</a></li>",6611,7109);
+$z[7][4]['typeid']="31";
+$z[8]=Array("type","<li class=\"\">\r\n                <div><span><a href=\"[field:typeurl/]\" title=\"移动APP开发\" target=\"_blank\"><i><img src=\"images/ser_04.png\" alt=\"移动APP开发\" height=\"90\" width=\"85\"></i>移动APP开发</a></span>\r\n                    <p>APP策划、界面UI设计、交互设计、APP开发、APP推广运营等系列专业服务等……</p>\r\n                </div>\r\n                <a href=\"[field:typeurl/]\" class=\"detail\">了解详情</a></li>",7123,7609);
+$z[8][4]['typeid']="30";
+$z[9]=Array("type","<li class=\"serve_no\">\r\n                <div><span><a href=\"[field:typeurl/]\" title=\"微营销\" target=\"_blank\"><i><img src=\"images/ser_05.png\" alt=\"微营销\" height=\"90\" width=\"87\"></i>微官网开发</a></span>\r\n                    <p>微信、微博营销，微网站、微招呼、微预约、会员卡、优惠券、刮刮乐、大转盘等……</p>\r\n                </div>\r\n                <a href=\"[field:typeurl/]\" class=\"detail\">了解详情</a></li>",7623,8117);
+$z[9][4]['typeid']="3";
+$z[10]=Array("arclist","\r\n            	<div class=\"iPNTop\">\r\n                	<div class=\"iPNTPic\">\r\n                    	<img src=\"[field:litpic/]\" />\r\n                    </div>\r\n                    <div class=\"iPNPicCont\">\r\n                    	<strong><a href=\"[field:arcurl/]\" target=\"_blank\">[field:fulltitle/]</a></strong>\r\n                        <p>\r\n[field:description/]</p>\r\n                    </div>\r\n                    <div class=\"clear\"></div>\r\n                </div>",8605,9131);
+$z[10][4]['typeid']="22";
+$z[10][4]['limit']="0,1";
+$z[10][4]['type']=".image";
+$z[11]=Array("arclist","\r\n                            <li>\r\n                               <span>[field:pubdate function=\"MyDate('y-m-d',@me)\"/]</span> <a href=\"[field:arcurl/]\" target=\"_blank\">[field:fulltitle/]</a>\r\n                            </li>",9186,9466);
+$z[11][4]['typeid']="22";
+$z[11][4]['limit']="1,5";
+$z[12]=Array("arclist","\r\n                            <li>\r\n                    	        <a href=\"[field:arcurl/]\" target=\"_blank\">\r\n                        	        <img src=\"[field:litpic/]\" />\r\n                                    <p>[field:title/]</p>\r\n                                </a>\r\n                            </li>",9846,10197);
+$z[12][4]['typeid']="4";
+$z[12][4]['row']="2";
+$z[13]=Array("arclist","\r\n                            <li style=\"top: 0px;\"><span><a href=\"[field:arcurl/]\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\" height=\"220\" width=\"319\"></a></span><p> <font color=\"#0099CC\" style=\"margin-right:5px;\">[[field:typename /]]</font><a href=\"[field:arcurl/]\" target=\"_blank\" title=\"[field:title/]\">[field:title/]</a><br><em class=\"case_em1\">Data:[field:pubdate function=\"MyDate('m-d',@me)\"/]</em><em class=\"case_em2\">Hit:[field:click/]</em></p><a style=\"display: none;\" href=\"[field:arcurl/]\" target=\"_blank\" class=\"box_opac\"></a></li>\r\n                            ",12873,13516);
+$z[13][4]['typeid']="4";
+$z[13][4]['row']="6";
+$z[14]=Array("include","",16960,16998);
+$z[14][4]['filename']="footer1.htm";
+$z[15]=Array("include","",17002,17039);
+$z[15][4]['filename']="footer.htm";
+
+?>

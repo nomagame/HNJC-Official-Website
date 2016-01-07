@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("global","",252,278);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",322,352);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",389,416);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",994,1037);
+$z[3][4]['filename']="header_index.htm";
+$z[4]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"网站设计及开发\"><h2>网站设计及网站建设</h2></a></li>",3518,3658);
+$z[4][4]['typeid']="1";
+$z[5]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"平面设计\"><h2>平面广告设计</h2></a></li>",3840,3963);
+$z[5][4]['typeid']="33";
+$z[6]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"手机界面设计及开发\"><h2>手机界面设计及开发</h2></a></li>",4160,4307);
+$z[6][4]['typeid']="11";
+$z[7]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"标识及VI设计\"><h2>SEO优化推广</h2></a></li>",4495,4620);
+$z[7][4]['typeid']="31";
+$z[8]=Array("channel"," \r\n <a href='[field:typelink/]'>[field:typename/]</a>  /   \r\n",4894,5008);
+$z[8][4]['typeid']="4";
+$z[8][4]['type']="son";
+$z[9]=Array("type","<a href=\"[field:typelink/]\" class=\"quan\" title=\"全部案例\">全部</a>",5027,5133);
+$z[9][4]['typeid']="4";
+$z[10]=Array("arclist","\r\n<div class=\"boxgrid captionfull\">\r\n<a href=\"[field:arcurl/]\"><img alt=\"[field:title/]\" title=\"[field:title/]\" src=\"[field:litpic/]\" height=\"144\" width=\"233\"></a>		<div class=\"cover boxcaption\">\r\n<h3><a rel=\"contact\" class=\"url\" href=\"[field:arcurl/]\">[field:title/]</a></h3>\r\n</div>	\r\n</div>\r\n",5169,5512);
+$z[10][4]['typeid']="4";
+$z[10][4]['row']="8";
+$z[11]=Array("type","<a title=\"资讯动态\" href=\"[field:typelink/]\">全部 &gt;</a>",5677,5776);
+$z[11][4]['typeid']="22";
+$z[12]=Array("arclist","\r\n    <dl class=\"new_list\">\r\n            <dt><a href=\"[field:arcurl/]\"><img alt=\"[field:title/]\" title=\"[field:title/]\" src=\"[field:litpic/]\" height=\"54\" width=\"87\"></a></dt>\r\n            <dd>\r\n              <h2><span class=\"data\">[field:pubdate function=\"MyDate('m-d',@me)\"/]</span><a href=\"[field:arcurl/]\">[field:title/]</a></h2>\r\n              <p>[field:infos/]...</p>\r\n            </dd>\r\n          </dl>\r\n   ",5810,6300);
+$z[12][4]['typeid']="22";
+$z[12][4]['row']="2";
+$z[12][4]['infolen']="180";
+$z[12][4]['type']=".image";
+$z[13]=Array("flink","\r\n<li>[field:link /]</li>\r\n",9344,9431);
+$z[13][4]['row']="24";
+$z[13][4]['type']="text";
+$z[13][4]['titlelen']="24";
+$z[14]=Array("include","",10373,10410);
+$z[14][4]['filename']="footer.htm";
+
+?>

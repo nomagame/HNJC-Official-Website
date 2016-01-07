@@ -1,0 +1,5 @@
+INSERT INTO `dede_search_keywords` VALUES('1','dssf','dssf','1','0','1398407264','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','搜素心悦信息','搜素心悦信息 信息 素心','1','0','1398407434','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','抗衰老','抗衰老 抗衰老','4','1','1398407638','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','搜素信息','搜素信息 信息 搜素','3','0','1398407915','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','搜','搜','1','6','1409328016','0','0');

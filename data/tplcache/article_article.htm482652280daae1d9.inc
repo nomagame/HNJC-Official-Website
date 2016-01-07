@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("field","",252,271);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",272,298);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("global","",342,372);
+$z[2][4]['name']="cfg_description";
+$z[3]=Array("global","",409,436);
+$z[3][4]['name']="cfg_keywords";
+$z[4]=Array("field","",1084,1106);
+$z[4][4]['name']="typename";
+$z[5]=Array("include","",1679,1716);
+$z[5][4]['filename']="header.htm";
+$z[6]=Array("type","<a href=\"[field:typelink/]\" class=\"hov\" title=\"全部资讯\"><font>全部资讯</font></a>",2402,2527);
+$z[6][4]['typeid']="22";
+$z[7]=Array("channel"," \r\n <a href='[field:typelink/]'><font>[field:typename/]</font></a>\r\n",2537,2659);
+$z[7][4]['typeid']="22";
+$z[7][4]['type']="son";
+$z[8]=Array("prenext","",2766,2792);
+$z[8][4]['get']="next";
+$z[9]=Array("prenext","",2854,2879);
+$z[9][4]['get']="pre";
+$z[10]=Array("field","",3010,3029);
+$z[10][4]['name']="title";
+$z[11]=Array("field","",3728,3784);
+$z[11][4]['name']="pubdate";
+$z[11][4]['function']="MyDate('Y-m-d H:i',@me)";
+$z[12]=Array("field","",3815,3842);
+$z[12][4]['name']="phpurl";
+$z[13]=Array("field","",3866,3889);
+$z[13][4]['name']="id";
+$z[14]=Array("field","",3894,3918);
+$z[14][4]['name']="mid";
+$z[15]=Array("field","",4052,4070);
+$z[15][4]['name']="body";
+$z[16]=Array("prenext","",4260,4286);
+$z[16][4]['get']="next";
+$z[17]=Array("prenext","",4348,4373);
+$z[17][4]['get']="pre";
+$z[18]=Array("include","",4689,4726);
+$z[18][4]['filename']="footer.htm";
+
+?>

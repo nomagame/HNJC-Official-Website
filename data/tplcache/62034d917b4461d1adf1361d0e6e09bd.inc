@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" class="hov" title="全部新闻">全部新闻</a>

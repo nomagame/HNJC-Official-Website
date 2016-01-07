@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<script type="text/javascript" src="js/M.js"></script>
+<script type="text/javascript" src="js/jquery-1.js"></script>
+<meta http-equiv="”Cache-Control”" content="”no-transform”">
+<meta http-equiv="”Cache-Control”" content="”no-siteapp”">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/mb5u_home.css">
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+</head>
+
+<body>
+{dede:include filename='header_index.htm'/}
+
+<script>
+      M.ready(function(){
+        var timer ,
+        counter = -1 ,
+        intval = 8000 ;
+        var imgs = [
+          { cn:'a1' , btn:'cirY' , cs:'cnow' , href:'#'} ,
+          { cn:'a2' , btn:'cirG' , cs:'' , href:'#'} ,
+          { cn:'a3' , btn:'cirX' , cs:'' , href:'#' },
+		  { cn:'a4' , btn:'cirS' , cs:'' , href:'#' },
+		  { cn:'a5' , btn:'cirM' , cs:'' , href:'#' },
+        ];
+        var html = "" ,
+        tmpl = '<li><a href="#" rel="nofollow" class="cc {cs}" id="{btn}"></a></li>';
+        imgs.each(function( i , img ){
+          M.getEl("#circle").append( M.template( tmpl , img ) );
+          (function(N , btn ){
+            M.getEl( "#" + btn ).click(function(){
+              counter = N  - 1 ;
+              play();
+            });
+          }(i , img.btn ));
+        });
+        function play(){
+          !!timer && clearTimeout( timer );
+          counter =  counter + 1 == imgs.length   ? 0 :  counter + 1 ;
+          M.getEls(".cnow").doApply( "removeClass" , "cnow");
+          M.getEl("#" + imgs[ counter ].btn ).addClass("cnow");
+          M.get("#box").className= imgs[ counter ].cn ;
+          timer = setTimeout( play , intval );
+        }
+        setTimeout( play , intval ) ;
+        
+        M.getEl("#li").click(function(){
+          console.log( imgs[  counter <0 ? 0 : counter ].href )
+          M.locate( imgs[  counter <0 ? 0 : counter ].href )
+          return false;
+        });
+        
+        M.getEl("#nClose").click(function(){
+          M.get("#nWin").style.display = "none";
+        });
+        M.getEl("#nokBtn").click(function(){
+          M.get("#nWin").style.display = "block";
+        })
+      });
+</script>
+<div id="index_box">
+   <div id="box" class="a1">
+      <div id="anim">
+        <div id="marquee">
+		<ul id="mPics">
+		    <li id="li"><a href="#" rel="nofollow"> </a></li>
+		</ul>
+           <ul id="circle"></ul>
+        </div>
+      </div>
+      </div>
+    <!--第一栏目 开始-->
+ 
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+$('.boxgrid.captionfull').hover(function(){
+$(".cover", this).stop().animate({top:'104px'},{queue:false,duration:110});
+}, function() {
+$(".cover", this).stop().animate({top:'144px'},{queue:false,duration:110});
+});
+});
+</script>
+ 
+ <div class="serve">
+<div class="title"><h1>服务项目…</h1></div>
+<div class="serve_con">
+
+<div class="s3">
+<span></span>
+<ul>
+{dede:type typeid='2'}<li><a href="[field:typeurl/]" title="科研设计"><h2>科研设计</h2></a></li>{/dede:type}
+<li>针对调查研究、试验设计、量表开发及其他科研项目中涉及的统计学...</li>
+</ul>
+</div>
+
+
+<div class="s2">
+<span></span>
+<ul>
+{dede:type typeid='3'}<li><a href="[field:typeurl/]" title="现场调查"><h2>现场调查</h2></a></li>{/dede:type}
+<li>在科研项目中涉及现场调查时，公司将以第三方立场提供现场调查服务...</li>
+</ul>
+</div>
+
+<div class="s3">
+<span></span>
+<ul>
+{dede:type typeid='29'}<li><a href="[field:typeurl/]" title="数据处理和挖掘"><h2>数据处理和挖掘</h2></a></li>{/dede:type}
+<li>应用专业的数据处理软件，为复杂、混乱、多噪声、海量的各类型数据...</li>
+</ul>
+</div>
+
+
+<div class="s2">
+<span></span>
+<ul>
+{dede:type typeid='30'}<li><a href="[field:typeurl/]" title="统计分析"><h2>统计分析</h2></a></li>{/dede:type}
+<li>针对整理好的数据，通过专业的统计学软件，如SAS、SPSS、R、STATA、REVMAN、EXCEL等...</li>
+</ul>
+</div>
+
+<div class="s3">
+<span></span>
+<ul>
+{dede:type typeid='31'}<li><a href="[field:typeurl/]" title="论文指导"><h2>论文指导</h2></a></li>{/dede:type}
+<li>论文撰写指导、辅助修改、语言母语化润色；中英文翻译...</li>
+</ul>
+</div>
+
+<div class="s2">
+<span></span>
+<ul>
+{dede:type typeid='33'}<li><a href="[field:typeurl/]" title="第三方调查与评价服务"><h2>第三方调查与评价服务</h2></a></li>{/dede:type}
+<li>公司以第三方的立场，提供现场调查、项目经济学评价、医疗服务质量评价等服务...</li>
+</ul>
+</div>
+
+
+
+
+
+</div>
+<!--serve_con-->
+</div>
+<!--serve-->
+
+<div class="case_main">
+<div class="case">
+<div class="title"><h1>最新下载</h1>
+
+{dede:type typeid='4'}<a href="[field:typelink/]" class="quan" title="全部案例">全部</a>{/dede:type}
+</div>
+
+<div class="case_con">
+{dede:arclist typeid='4' row='8'}
+<div class="boxgrid captionfull">
+<a href="[field:arcurl/]"><img alt="[field:title/]" title="[field:title/]" src="[field:litpic/]" height="144" width="233"></a>		<div class="cover boxcaption">
+<h3><a rel="contact" class="url" href="[field:arcurl/]">[field:title/]</a></h3>
+</div>	
+</div>
+{/dede:arclist}
+</div>
+<!--case_con-->
+</div>
+<!--case-->
+</div>
+<!--case_main-->
+
+<div class="index_box">
+<div class="news">
+<div class="title">
+<h1>谨诚动态</h1>
+{dede:type typeid='22'}<a title="资讯动态" href="[field:typelink/]">全部 ></a>{/dede:type}
+</div>
+<div class="news_con">
+{dede:arclist typeid='22' row='2' infolen='180' type='.image'}
+    <dl class="new_list">
+            <dt><a href="[field:arcurl/]"><img alt="[field:title/]" title="[field:title/]" src="[field:litpic/]" height="54" width="87"></a></dt>
+            <dd>
+              <h2><span class="data">[field:pubdate function="MyDate('m-d',@me)"/]</span><a href="[field:arcurl/]">[field:title/]</a></h2>
+              <p>[field:infos/]...</p>
+            </dd>
+          </dl>
+   {/dede:arclist}
+
+          </div>
+<!--news_con-->
+</div>
+<!--news-->
+
+<div class="xuqiu">
+<ul>
+<li>湖南谨诚统计有限公司</li>
+<li>国内最专业的数据处理统计分析服务平台</li>
+<li>致力于为
+<a href="/hz/sheji/" title="谨诚不仅仅从事北京网页设计，我们还为上海以及全国中小企业提供最专业的网站设计服务。">企业</a>、
+<a href="/mobile/" title="为移动设备、平板电脑、移动产品等终端提供交互流程及界面设计服务。包括IOS、Android、Win等多平台。">高校</a>、
+<a href="/hz/" title="以用户体验为核心的设计可以让企业产品创造持续发展的竞争优势，并让您享受一站式建站服务。">医院</a>、
+<a href="/hz/seo/" title="SEO优化有利于促进产品的销售,占领市场有限的份额。">科研机构</a>
+</li>
+<li><h1>我们只做一件事 :<span>持续为客户创造价值</span></h1></li>
+<li><a href="http://wpa.qq.com/msgrd?v=3&uin=460249852&site=qq&menu=yes" class="tijiao" title="在线咨询" rel="nofollow">QQ在线咨询</a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=56529723&site=qq&menu=yes" rel="nofollow" title="在线咨询" class="qqico">QQ在线咨询</a></li>
+</ul>
+</div>
+<!--xuqiu-->
+</div>
+<!--index_box-->
+
+
+    <!--友情链接-->
+<div id="link">
+<div class="div">
+<div class="lm3 skin2"><span class="fs16 black">友情链接</span></div>
+<ul class="kh">
+{dede:flink row='24' type='text' titlelen="24"}
+<li><a href="http://www.nomagame.com" target="_blank">技术支持</a></li>
+{/dede:flink}
+</ul>
+            </div>
+       </div>  
+    <!--end 友情链接-->
+    
+    <!--第三栏目 开始-->
+    <div class="part3">
+      <div class="div">
+        <div class="part3mk">
+          <h2 id="contus" class="skin2"></h2>
+          <p>联系地址：长沙市岳麓区银双路西子园小区2栋507室</p>
+          <p>E-mail:hnjcyxtj@163.com  手机：15974269544 </p>
+        </div>
+        <div class="part3mk mrt20">
+        <a id="weibo" href="http://www.weibo.com" class="skin2" rel="nofollow" target="_blank">新浪微博</a>
+		<script>
+           WB2.anyWhere(function(W){
+						W.widget.hoverCard({
+							id: "card"
+						});
+         });
+        </script>
+     </div>
+
+<div class="part3mk mrt15">
+<a id="online" class="skin2" target="_blank" rel="nofollow" href="/contact/index.html#xq">在线提交需求</a>        </div>
+</div>
+</div>
+    <!--第三栏目 结束--> 
+</div>  
+  
+{dede:include filename='footer.htm'/}
+
+</body>
+</html>

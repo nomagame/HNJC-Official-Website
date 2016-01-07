@@ -1,0 +1,1 @@
+<div class="min_nav_left"><a style="float:right;" href="[field:typeurl/]">了解更多>></a><a href="javascript:void(0)" class="hov">中英翻译</a></div>

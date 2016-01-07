@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("global","",252,278);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",322,352);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",389,416);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("include","",994,1037);
+$z[3][4]['filename']="header_index.htm";
+$z[4]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"科研设计\"><h2>科研设计</h2></a></li>",3514,3630);
+$z[4][4]['typeid']="2";
+$z[5]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"现场调查\"><h2>现场调查</h2></a></li>",3794,3910);
+$z[5][4]['typeid']="3";
+$z[6]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"数据处理和挖掘\"><h2>数据处理和挖掘</h2></a></li>",4075,4210);
+$z[6][4]['typeid']="29";
+$z[7]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"统计分析\"><h2>统计分析</h2></a></li>",4377,4494);
+$z[7][4]['typeid']="30";
+$z[8]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"论文指导\"><h2>论文指导</h2></a></li>",4671,4788);
+$z[8][4]['typeid']="31";
+$z[9]=Array("type","<li><a href=\"[field:typeurl/]\" title=\"第三方调查与评价服务\"><h2>第三方调查与评价服务</h2></a></li>",4935,5088);
+$z[9][4]['typeid']="33";
+$z[10]=Array("type","<a href=\"[field:typelink/]\" class=\"quan\" title=\"全部案例\">全部</a>",5376,5482);
+$z[10][4]['typeid']="4";
+$z[11]=Array("arclist","\r\n<div class=\"boxgrid captionfull\">\r\n<a href=\"[field:arcurl/]\"><img alt=\"[field:title/]\" title=\"[field:title/]\" src=\"[field:litpic/]\" height=\"144\" width=\"233\"></a>		<div class=\"cover boxcaption\">\r\n<h3><a rel=\"contact\" class=\"url\" href=\"[field:arcurl/]\">[field:title/]</a></h3>\r\n</div>	\r\n</div>\r\n",5518,5861);
+$z[11][4]['typeid']="4";
+$z[11][4]['row']="8";
+$z[12]=Array("type","<a title=\"资讯动态\" href=\"[field:typelink/]\">全部 ></a>",6026,6122);
+$z[12][4]['typeid']="22";
+$z[13]=Array("arclist","\r\n    <dl class=\"new_list\">\r\n            <dt><a href=\"[field:arcurl/]\"><img alt=\"[field:title/]\" title=\"[field:title/]\" src=\"[field:litpic/]\" height=\"54\" width=\"87\"></a></dt>\r\n            <dd>\r\n              <h2><span class=\"data\">[field:pubdate function=\"MyDate('m-d',@me)\"/]</span><a href=\"[field:arcurl/]\">[field:title/]</a></h2>\r\n              <p>[field:infos/]...</p>\r\n            </dd>\r\n          </dl>\r\n   ",6156,6646);
+$z[13][4]['typeid']="22";
+$z[13][4]['row']="2";
+$z[13][4]['infolen']="180";
+$z[13][4]['type']=".image";
+$z[14]=Array("flink","\r\n<li><a href=\"http://www.nomagame.com\" target=\"_blank\">技术支持</a></li>\r\n",8093,8232);
+$z[14][4]['row']="24";
+$z[14][4]['type']="text";
+$z[14][4]['titlelen']="24";
+$z[15]=Array("include","",9169,9206);
+$z[15][4]['filename']="footer.htm";
+
+?>

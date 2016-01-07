@@ -1,0 +1,1 @@
+<a title="资讯动态" href="[field:typeurl/]">资讯</a>

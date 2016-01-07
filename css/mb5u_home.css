@@ -1,0 +1,292 @@
+/* dede58.com 做最好的织梦模板 */
+body {
+	background:#f4f4f4;
+}
+.serve {
+	width:1000px;
+	margin:20px auto;
+	overflow:hidden;
+}
+.serve .title {
+	width:1000px;
+	overflow:hidden;
+	line-height:35px;
+	text-align:left;
+}
+.serve h1 {
+	font-size:22px;
+	color:#070707;
+}
+.serve_con {
+	width:960px;
+	overflow:hidden;
+	margin:20px auto;
+}
+.serve_con .s1, .serve_con .s3 {
+	width:435px;
+	height:80px;
+	float:left;
+	margin-top:20px;
+}
+.serve_con .s2, .serve_con .s4 {
+	width:435px;
+	height:80px;
+	float:right;
+	margin-top:20px;
+}
+.serve_con .s1 span {
+	background:url(../images/icon.png) -70px 0;
+	display:block;
+	width:48px;
+	height:43px;
+	float:left;
+}
+.serve_con .s1:hover span {
+	background-position:-70px -46px;
+}
+.serve_con .s2 span {
+	background:url(../images/icon.png) -151px 0;
+	display:block;
+	width:54px;
+	height:43px;
+	float:left;
+}
+.serve_con .s2:hover span {
+	background-position:-151px -46px;
+}
+.serve_con .s3 span {
+	background:url(../images/icon.png) -228px 0;
+	display:block;
+	width:48px;
+	height:48px;
+	float:left;
+}
+.serve_con .s3:hover span {
+	background-position:-228px -48px;
+}
+.serve_con .s4 span {
+	background:url(../images/icon.png) -295px 0;
+	display:block;
+	width:48px;
+	height:59px;
+	float:left;
+}
+.serve_con .s4:hover span {
+	background-position:-295px -59px;
+}
+.serve_con ul {
+	width:365px;
+	float:right;
+	text-align:left;
+	line-height:20px;
+	color:#63686e;
+}
+.serve_con ul h2 {
+	font-size:16px;
+	color:#070707;
+	margin-bottom:4px;
+}
+.serve_con a:hover ul {
+	color:#59ac00;
+}
+.serve_con a:hover ul h2 {
+	color:#59ac00;
+}
+.case_main {
+	background:#fff;
+	width:100%;
+	overflow:hidden;
+}
+.case {
+	width:1000px;
+	margin:30px auto;
+	overflow:hidden;
+}
+.case .title {
+	width:1000px;
+	overflow:hidden;
+}
+.case .title h1 {
+	font-size:22px;
+	color:#262626;
+	float:left;
+}
+.case .title span {
+	float:left;
+	display:block;
+	font-size:14px;
+	margin:5px 0 0 15px;
+	color:#262626;
+}
+.case .title span a {
+	margin:0 5px;
+	color:#262626;
+}
+.case .title span a:hover {
+	color:#48a11c;
+}
+.case .title .quan {
+	background:url(../images/icon.png) no-repeat -1px -48px;
+	width:27px;
+	height:27px;
+	display:block;
+	float:right;
+	text-indent:-10000px;
+}
+.case .title .quan:hover {
+	background-position:-32px -48px;
+}
+.case_con {
+	padding:0;
+	width:1024px;
+}
+.boxgrid {
+	width:233px;
+	height:144px;
+	float:left;
+	overflow: hidden;
+	position: relative;
+	margin:20px 8px 0 7px;
+	border:#CCCCCC 1px solid
+}
+.boxgrid img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+.boxcaption {
+	position: absolute;
+	background:#000;
+	width:100%;
+	opacity: .8; /* For IE 5-7 */
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);/* For IE 8 */
+	-MS-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.captionfull .boxcaption {
+	top:144px;
+	left: 0;
+}
+.captionfull .boxcaption h3 a {
+	font-size:14px;
+	color:#fff;
+	line-height:40px;
+	text-align: center;
+	font-weight:normal;
+}
+.index_box {
+	width:1000px;
+	margin:30px auto;
+	overflow:hidden;
+}
+.news {
+	width:580px;
+	float:left;
+	overflow:hidden;
+}
+.news .title {
+	width:580px;
+	overflow:hidden;
+}
+.news .title h1 {
+	font-size:22px;
+	color:#262626;
+	float:left;
+}
+.news .title a {
+	font-size:14px;
+	color:#909192;
+	float:left;
+	margin:4px 0 0 10px;
+}
+.news .title a:hover {
+	color:#4da422;
+}
+.news_con {
+	width:580px;
+	clear:both;
+	overflow:hidden;
+	text-align:left;
+	margin:10px auto;
+}
+.xuqiu {
+	width:345px;
+	float:right;
+	margin-top:40px;
+	overflow:hidden;
+	text-align:left;
+	font-size:14px;
+	padding-left:20px;
+	border-left:2px solid #dcdedf;
+}
+.xuqiu h1 {
+	font-size:20px;
+	margin:20px 0;
+}
+.xuqiu h1 span {
+	color:#4da422;
+}
+.xuqiu a.tijiao {
+	background:url(../images/icon.png) no-repeat 0 -168px;
+	width:150px;
+	height:43px;
+	display:block;
+	float:left;
+	text-indent:-10000px;
+	margin-top:4px;
+}
+.xuqiu a.tijiao:hover {
+	background-position:  0px -122px;
+}
+.xuqiu a.qqico {
+	background:url(../images/icon.png) no-repeat -156px -119px;
+	width:150px;
+	height:46px;
+	display:block;
+	float:right;
+	margin-right:30px;
+	text-indent:-10000px;
+}
+.xuqiu a.qqico:hover {
+	background-position:-156px -165px;
+}
+.client {
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.client .title {
+	width:1000px;
+	overflow:hidden;
+}
+.client .title h1 {
+	font-size:22px;
+	color:#262626;
+	float:left;
+}
+.client .title a {
+	font-size:14px;
+	color:#909192;
+	float:left;
+	margin:4px 0 0 10px;
+}
+.client .title a:hover {
+	color:#4da422;
+}
+.client_list {
+	width:998px;
+	overflow:hidden;
+	margin:20px auto 40px auto;
+	border:0 dotted #979899;
+	border-width:1px 1px 0 0;
+}
+.client_list li {
+	width:165px;
+	height:79px;
+	float:left;
+	border:0 dotted #979899;
+	border-width:0 0 1px 1px;
+}
+.client_list li img {
+	margin-top:15px;
+}

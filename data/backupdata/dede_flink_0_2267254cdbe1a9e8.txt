@@ -1,0 +1,1 @@
+INSERT INTO `dede_flink` VALUES('12','1','http://jpzj.taobao.com','技术支持','','','','1429603490','1','2');
